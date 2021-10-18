@@ -64,7 +64,7 @@ public:
 };
 
 std::ostream& operator<< (std::ostream& out, const date& obj) {
-	cout << obj.day << "." << obj.month << "." << obj.year << endl;
+	out << obj.day << "." << obj.month << "." << obj.year << endl;
 	return out;
 }
 //int + date
