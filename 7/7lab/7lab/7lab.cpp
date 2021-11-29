@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 //EX 1.3
-/*
+
 template <typename T>
 T max(T a, T b) {
     cout << "max traf" << endl;
@@ -11,7 +11,7 @@ const char* max(const char* a, const char* b) {
     cout << "max char" << endl;
     return (a > b) ? a : b;
 }
-*/
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 //EX 2.1
